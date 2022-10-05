@@ -1,32 +1,32 @@
 local Translations = {
     error = {
-        incorrect = 'Entered password is not correct!',
-        wrong = 'Something went wrong!',
-        passmismatch = 'Passwords does not match!',
+        incorrect = 'Ingevoerde wachtwoord is niet correct!',
+        wrong = 'Er is iets misgegaan!',
+        passmismatch = 'Wachtwoord komt niet overeen!',
     },
     success = {
-        changed = 'Password has been changed!',
+        changed = 'Wachtwoord is verandert!',
     },
     target = {
         label = 'Open Stash'
     },
     menu = {
         stash = 'Stash',
-        stashtxt = 'Open gang stashes',
-        close = '❌ Close',
-        ogs = 'Open Gang Stash',
-        ogstxt = 'Open your default gang stash',
-        oss = 'Open Safe Stash',
-        osstxt = 'Open your safe gang stash',
-        csp = 'Change Safe Pass',
-        csptxt = 'Change safe stash password',
-        np = 'New Password',
-        rtp = 'Retype Password',
-        cpf = 'Change Password for',
-        cpftext = 'CHANGE',
-        pf = 'Password for',
+        stashtxt = 'Open bende stash',
+        close = '❌ Sluiten',
+        ogs = 'Open Bende Stash',
+        ogstxt = 'Open het algemene bende stash',
+        oss = 'Open Veilige Stash',
+        osstxt = 'Open je veilige bende stash',
+        csp = 'Verander Wachtwoord',
+        csptxt = 'Verander veilige stash wachtwoord',
+        np = 'Nieuw Wachtwoord',
+        rtp = 'Herhaal Wachtwoord',
+        cpf = 'Verander Wachtwoord voor',
+        cpftext = 'VERANDER',
+        pf = 'Wachtwoord voor',
         pftext = 'OPEN',
-        pftext2 = 'Password'
+        pftext2 = 'Wachtwoord'
     },
 }
 
