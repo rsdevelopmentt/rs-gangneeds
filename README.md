@@ -1,7 +1,5 @@
 *Copyrights Reserved*
 
-*En*
-
 Script Made By Rs Development & Team HI-Dev. SALE IS PROHIBITED.
 Please do not share on any platform or forum other than *https://vag.gg*.
 Many thanks to Proportions for their great help in the code part.
@@ -33,7 +31,11 @@ Dependances: qb-menu , qb-target
 Installation:
 
 1 - Download resource from github
+
 2 - Unzip / Unpack it into your resources folder
+
 3 - Remove the -main from the foldername
+
 4 - Insert the rsgangneeds.sql file into your database
+
 5 - Restart your city
