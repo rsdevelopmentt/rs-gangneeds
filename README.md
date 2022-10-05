@@ -28,3 +28,21 @@ discord {
 https://vag.gg/ & https://vfivem.com/
 
 
+
+-RS-GangNeeds-
+
+- Public and safe stashes for gangs.
+- Only the members from the given rank can reach the stash
+- Safe stashes with password protection, accessible only by gang members who have the password
+- Safe passwords can be managed by gang members with boss role
+- Default password is 1234, this can be changed from database defaul value
+
+Dependances: qb-menu , qb-target
+
+Installation:
+
+1 - Download resource from github
+2 - Unzip / Unpack it into your resources folder
+3 - Remove the -main from the foldername
+4 - Insert the rsgangneeds.sql file into your database
+5 - Restart your city
