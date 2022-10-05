@@ -1,14 +1,5 @@
 *Copyrights Reserved*
 
-*Tr*
-
-Script Rs Development & Team HI-Dev Tarafından Yapılmıştır. Satışı YASAKTIR.
-Lütfen *https://vag.gg* harici herhangi bir platformda veya forumda paylaşmayınız.
-Kod Kısmındaki Büyük Yardımları İçin  Proportions a çokça teşekkür ediyorum 
-
-Lütfen Trigger ismi değişip satmaya çalışmayın!!
-
-
 *En*
 
 Script Made By Rs Development & Team HI-Dev. SALE IS PROHIBITED.
