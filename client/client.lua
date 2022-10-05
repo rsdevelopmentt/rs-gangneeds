@@ -111,7 +111,7 @@ RegisterNetEvent("rs-gangneeds:client:ChangeSafeStash", function(data)
 
 end)
 
-RegisterNetEvent("rs-gangneeds:client:CloseMenu", function() exports["qb-menu"]:CloseMenu() end)
+RegisterNetEvent("rs-gangneeds:client:CloseMenu", function() exports["qb-menu"]:closeMenu() end)
 
 AddEventHandler('onResourceStop', function(resource)
    if resource == GetCurrentResourceName() then return end
