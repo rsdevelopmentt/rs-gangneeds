@@ -1,7 +1,7 @@
 *Copyrights Reserved*
 
 Script Made By Rs Development & Team HI-Dev. SALE IS PROHIBITED.
-Please do not share on any platform or forum other than *https://vag.gg*.
+Please do not share on any platform or forum other than.
 Many thanks to Proportions for their great help in the code part.
 
 Please don't try to rename Trigger and sell it!!
@@ -12,11 +12,6 @@ discord {
    *dc invite Rs Development:https://discord.gg/WhRgsxp4A6* 
    *dc invite Team HI-Dev:https://discord.gg/KakBc3BB5P*
 }
-
-
-https://vag.gg/ & https://vfivem.com/
-
-
 
 -RS-GangNeeds-
 
