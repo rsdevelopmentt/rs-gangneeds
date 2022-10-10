@@ -2,24 +2,32 @@ local QBCore = exports['qb-core']:GetCoreObject()
 local PlayerGang = {}
 local ped = {}
 
-RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
+RegisterNetEvent("QBCore:Client:OnPlayerLoaded")
+AddEventHandler("QBCore:Client:OnPlayerLoaded", function()
     PlayerGang = QBCore.Functions.GetPlayerData().gang
+    spawnPeds()
 end)
+
 
 AddEventHandler('onResourceStart', function(resourceName)
     if (GetCurrentResourceName() ~= resourceName) then return end
     PlayerGang = QBCore.Functions.GetPlayerData().gang
-    TriggerEvent("rs-gangneeds:client:createNeeds")
+    spawnPeds()
 end)
 
 RegisterNetEvent('QBCore:Client:OnGangUpdate', function(ganginfo)
     PlayerGang = ganginfo
 end)
 
-RegisterNetEvent("rs-gangneeds:client:createNeeds", function()
+
+
+function spawnPeds()
     for k,v in pairs(Config.Places) do
         RequestModel(v.pedhash) while not HasModelLoaded(v.pedhash) do Wait(10) end
-        if ped["['".. v.gangname .."']"] == nil then ped["['".. v.gangname .."']"] = CreatePed(0,v.pedhash,v.stash.x,v.stash.y,v.stash.z,v.stash.w, false,false) end
+        local ped = CreatePed(0,v.pedhash,v.stash.x,v.stash.y,v.stash.z,v.stash.w, false,false)
+        FreezeEntityPosition(ped, true)
+        SetEntityInvincible(ped, true)
+        SetBlockingOfNonTemporaryEvents(ped, true)
         local label = Lang:t("target.label")
         exports['qb-target']:AddCircleZone("['".. v.gangname .."']", vector3(v.stash.x,v.stash.y,v.stash.z), 2.0,{
             name = "['".. v.gangname .."']",
@@ -43,7 +51,8 @@ RegisterNetEvent("rs-gangneeds:client:createNeeds", function()
             distance = 2.0
         })
     end
-end)
+end
+
 
 RegisterNetEvent("rs-gangneeds:client:OpenMenu", function(data)
     local GN = data.gang
@@ -111,9 +120,10 @@ RegisterNetEvent("rs-gangneeds:client:ChangeSafeStash", function(data)
 
 end)
 
-RegisterNetEvent("rs-gangneeds:client:CloseMenu", function() exports["qb-menu"]:closeMenu() end)
+RegisterNetEvent("rs-gangneeds:client:CloseMenu", function() exports["qb-menu"]:CloseMenu() end)
 
 AddEventHandler('onResourceStop', function(resource)
    if resource == GetCurrentResourceName() then return end
     for _,v in pairs(ped) do DeletePed(v) end
+    for _,v in pairs(Config.Places) do exports['qb-target']:RemoveZone("['".. v.gangname .."']") end
 end)
