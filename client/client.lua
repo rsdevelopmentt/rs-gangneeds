@@ -2,8 +2,7 @@ local QBCore = exports['qb-core']:GetCoreObject()
 local PlayerGang = {}
 local ped = {}
 
-RegisterNetEvent("QBCore:Client:OnPlayerLoaded")
-AddEventHandler("QBCore:Client:OnPlayerLoaded", function()
+RegisterNetEvent("QBCore:Client:OnPlayerLoaded", function()
     PlayerGang = QBCore.Functions.GetPlayerData().gang
     spawnPeds()
 end)
