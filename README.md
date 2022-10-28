@@ -36,4 +36,4 @@ Installation:
 5 - Restart your city
 
 
-https://www.dmca.com/r/430ej34
+https://www.dmca.com/Protection/Status.aspx?id=eb363eff-6fcc-4eac-bed2-c1ade07a2fde&refurl=https%3a%2f%2fgithub.com%2frsdevelopmentt%2frs-gangneeds&rlo=true
