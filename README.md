@@ -40,4 +40,5 @@ Installation:
 
 <a href="https://www.dmca.com/compliance/github.com" title="DMCA Compliance information for github.com"><img src="https://www.dmca.com/img/dmca-compliant-grayscale.png" alt="DMCA compliant image" /></a>
 
+<a href="//www.dmca.com/Protection/Status.aspx?ID=eb363eff-6fcc-4eac-bed2-c1ade07a2fde" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=eb363eff-6fcc-4eac-bed2-c1ade07a2fde"  alt="DMCA.com Protection Status" /></a>  
 
