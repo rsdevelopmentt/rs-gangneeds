@@ -35,5 +35,11 @@ Installation:
 
 5 - Restart your city
 
-<a href="//www.dmca.com/Protection/Status.aspx?ID=eb363eff-6fcc-4eac-bed2-c1ade07a2fde" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=eb363eff-6fcc-4eac-bed2-c1ade07a2fde"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+                                    <script type="text/javascript">                                                                                  (function () { var c = document.createElement('link'); c.type = 'text/css'; c.rel = 'stylesheet'; c.href = 'https://images.dmca.com/badges/dmca.css?ID=eb363eff-6fcc-4eac-bed2-c1ade07a2fde'; var h = document.getElementsByTagName("head")[0]; h.appendChild(c); })();</script>
+                                    <div id="DMCA-badge">
+                                        <div class="dm-1 dm-1-b" style="left: 0;"><a href="https://www.dmca.com/" title="DMCA">DMCA</a></div>
+                                        <div class="dm-2 dm-2-b"><a href="http://www.dmca.com/Protection/Status.aspx?ID=eb363eff-6fcc-4eac-bed2-c1ade07a2fde" title="DMCA">PROTECTED</a></div>
+                                    </div>
+                                
 
