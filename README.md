@@ -38,6 +38,3 @@ Installation:
 
 ![httsp://dmca.com](https://user-images.githubusercontent.com/84734782/198709981-71cc0e0d-9a94-4d1b-9c54-99791c640382.png)
 
-
-<a href="//www.dmca.com/Protection/Status.aspx?ID=eb363eff-6fcc-4eac-bed2-c1ade07a2fde" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=eb363eff-6fcc-4eac-bed2-c1ade07a2fde"  alt="DMCA.com Protection Status" /></a>  
-
