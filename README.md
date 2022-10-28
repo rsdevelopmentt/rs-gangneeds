@@ -38,4 +38,6 @@ Installation:
 
 ![httsp://dmca.com](https://user-images.githubusercontent.com/84734782/198709981-71cc0e0d-9a94-4d1b-9c54-99791c640382.png)
 
+<a href="https://www.dmca.com/compliance/github.com" title="DMCA Compliance information for github.com"><img src="https://www.dmca.com/img/dmca-compliant-grayscale.png" alt="DMCA compliant image" /></a>
+
 
