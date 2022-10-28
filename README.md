@@ -36,4 +36,4 @@ Installation:
 5 - Restart your city
 
 
-https://www.dmca.com/Protection/Status.aspx?id=eb363eff-6fcc-4eac-bed2-c1ade07a2fde&refurl=https%3a%2f%2fgithub.com%2frsdevelopmentt%2frs-gangneeds&rlo=true
+![Ekran görüntüsü 2022-10-28 214604](https://user-images.githubusercontent.com/84734782/198709981-71cc0e0d-9a94-4d1b-9c54-99791c640382.png)
