@@ -36,5 +36,5 @@ Installation:
 5 - Restart your city
 
 
-![httsp://dmca.com](https://user-images.githubusercontent.com/84734782/198709981-71cc0e0d-9a94-4d1b-9c54-99791c640382.png)
+
 
